@@ -1,0 +1,55 @@
+/* css styles */
+
+.blue pre {
+  background: #C3D8EA;
+}
+
+.box{
+  background:#f0f7fa;
+  border-left:4px solid #4699C3;
+  padding: 0.1rem 1rem 0.1rem 1rem;
+  margin:1rem 0;
+  border-radius:4px
+}
+
+.white {
+  background: white;
+}
+
+.key-points {
+  background:#f3f7f6;
+  border-left-color:#587e76; 
+}
+
+.objectives {
+  background:#f2f7f8;
+  border-left-color:#5b9aa0; 
+}
+
+.discussion {
+  background:#fbf1ef;
+  border-left-color:#c8553d; 
+}
+
+.resources {
+  background:#f7f6f3;
+  border-left-color:#a79e84; 
+}
+
+.challenge {
+  background:#f3f4f7;
+  border-left-color:#667292; 
+}
+
+.solution {
+  background: white;
+  border-left-color:white;
+}
+
+details > summary {
+  color: black;
+}
+
+.center {
+  text-align: center;
+}/* css styles */

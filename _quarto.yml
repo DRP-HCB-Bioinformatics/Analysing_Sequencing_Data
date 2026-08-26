@@ -1,0 +1,30 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - "!drafts/"
+    - "*.qmd"
+
+website:
+  title: "Analysing Sequencing Data"
+  
+  navbar:
+    logo: "images/DRP_Logo_only_square_transparent.png"
+    left:
+      - href: index.qmd
+        text: Home
+      - href: start.qmd
+        text: Getting Started
+
+format:
+  html:
+    theme: 
+      - cosmo
+      - custom.scss
+    css: styles.css
+    toc: false
+    toc-float: false
+    link-external-newwindow: true
+
+editor: visual
+

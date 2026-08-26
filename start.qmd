@@ -1,0 +1,70 @@
+---
+title: "Getting Started"
+---
+
+<head>
+
+```{=html}
+<script src="https://kit.fontawesome.com/ece750edd7.js" crossorigin="anonymous"></script>
+```
+
+</head>
+
+```{r global_options, include=FALSE}
+knitr::opts_chunk$set(warning=FALSE, message=FALSE)
+```
+
+------------------------------------------------------------------------
+
+In these workshops, we will use the Bioinformatics Core training server. This server provides access to a Linux environment, course data and pre-installed bioinformatics tools. Contact [Shaun Webb](mailto:shaun.webb@ed.ac.uk) for an account.
+
+If you would like to use your own Linux environment, a list of software versions will be provided at the start of each course. See below for installing software with Conda.
+
+## Terminal applications
+
+To access the server, you will need to use the Terminal application on your local machine. Windows, Mac and Linux computers all have a built in Terminal application. There are also many [third party Terminal applications](https://github.com/cdleon/awesome-terminals) if you desire a more stylish or interactive setup.   
+
+## Accessing the server
+
+The `ssh` command is used to connect to a remote server and stands for "secure shell".
+
+`ssh -Y username@bifx-core1.bio.ed.ac.uk`
+
+The `-Y` option allows you to run graphical applications on the server and have them displayed on your local machine. Replace `username` with your university UUN (universal user name).
+
+## Writing commands
+
+## Shell setup
+
+## Installing software
+
+We recommend [Conda]() for installing software on your own Linux environment. Conda is a package manager that allows you to install software and manage dependencies in isolated environments. 
+
+Follow our guide to setting up a Conda environment here.
+
+## Project management
+
+It is good practice to keep your work organised in a project folder. This will make it easier to revisit your work in the future. Best practice is to create a new project for each course and keep all your work in that project folder.
+
+
+
+
+
+
+
+
+
+`Linux_command_line_course_Sep26`
+
+Create subfolders for each lesson and keep all your work in the relevant lesson folder. For example, for the Linux command line course, you could create a folder structure like this:
+
+
+::: key-points
+<h2><i class="fas fa-thumbtack"></i> How to follow each course</h2>
+
+-   Create a new project in RStudio
+-   Install the required libraries\
+-   Open a new R script
+-   It will be best to work with the tutorial and RStudio open together so you can easily switch between the two. Working on a wide split-screen or multiple desktops is the best setup.
+-   I recommend typing out most of the commands rather than copy-and-pasting if you want to learn. Remember you can use the <kbd>Tab</kbd> key to save yourself from endless typing!
+:::

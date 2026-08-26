@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Analysing Sequencing Data",
+    "section": "",
+    "text": "This is the homepage for Analysing Sequencing Data hosted by the DRP-HCB Bioinformatics Core at the University of Edinburgh.\nThese courses are run annually by the Bioinformatics Core but are also available upon request."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "index.html#workshops",
+    "href": "index.html#workshops",
+    "title": "Analysing Sequencing Data",
+    "section": "Workshops",
+    "text": "Workshops\n\nLesson 1: Bioinformatics on the Linux command line\nLesson 2: High throughput sequencing data\nLesson 3: Analysing HTS data (ChIP-seq example)\nLesson 4: Long read transcriptomics\nLesson 5: Building bioinformatics pipelines (bash scripts and Snakemake)\n\n\nFor more information contact Shaun Webb."
+  },
+  {
+    "objectID": "index.html#course-content",
+    "href": "index.html#course-content",
+    "title": "Analysing Sequencing Data",
+    "section": "Course content",
+    "text": "Course content\n\nLesson 1: Bioinformatics on the Linux command line\nLesson 2: High throughput sequencing data\nLesson 3: Analysing HTS data (ChIP-seq example)\nLesson 4: Long read transcriptomics\nLesson 5: Building bioinformatics pipelines (bash scripts and Snakemake)\n\n\nFor more information contact Shaun Webb."
+  }
+]
