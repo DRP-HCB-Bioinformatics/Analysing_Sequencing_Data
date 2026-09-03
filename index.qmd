@@ -14,11 +14,11 @@ These courses are run annually by the Bioinformatics Core but are also available
 
 ## Course content
 
-- [Lesson 1: Bioinformatics on the Linux command line]()
-- [Lesson 2: High throughput sequencing data]()
-- [Lesson 3: Analysing HTS data (ChIP-seq example)]()
-- [Lesson 4: Long read transcriptomics]()
-- [Lesson 5: Building bioinformatics pipelines (bash scripts and Snakemake)]()
+- Lesson 1: Bioinformatics on the Linux command line
+- Lesson 2: High throughput sequencing data
+- Lesson 3: Analysing HTS data (ChIP-seq example)
+- Lesson 4: Long read transcriptomics
+- Lesson 5: Building bioinformatics pipelines (bash scripts and Snakemake)
 
 ------------------------------------------------------------------------
 

@@ -18,11 +18,14 @@ knitr::opts_chunk$set(warning=FALSE, message=FALSE)
 
 In these workshops, we will use the Bioinformatics Core training server. This server provides access to a Linux environment, course data and pre-installed bioinformatics tools. Contact [Shaun Webb](mailto:shaun.webb@ed.ac.uk) for an account.
 
+If you are using the Bioinformatics Core servers, please abide by our user policy and best practices: https://drp-hcb-bioinformatics.github.io/DRP-HCB-Bioinformatics/user_policy.html
+
 If you would like to use your own Linux environment, a list of software versions will be provided at the start of each course. See below for installing software with Conda.
 
 ## Terminal applications
 
-To access the server, you will need to use the Terminal application on your local machine. Windows, Mac and Linux computers all have a built in Terminal application. There are also many [third party Terminal applications](https://github.com/cdleon/awesome-terminals) if you desire a more stylish or interactive setup.   
+To access the server, you will need to use the Terminal application on your local machine. Windows, Mac and Linux computers all have a built in Terminal application. 
+There are also many [third party Terminal applications](https://github.com/cdleon/awesome-terminals) if you desire a more stylish or interactive setup.   
 
 ## Accessing the server
 
@@ -32,39 +35,15 @@ The `ssh` command is used to connect to a remote server and stands for "secure s
 
 The `-Y` option allows you to run graphical applications on the server and have them displayed on your local machine. Replace `username` with your university UUN (universal user name).
 
-## Writing commands
-
-## Shell setup
-
 ## Installing software
 
-We recommend [Conda]() for installing software on your own Linux environment. Conda is a package manager that allows you to install software and manage dependencies in isolated environments. 
+We recommend [Conda](https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html) for installing software on your own Linux environment. Conda is a package manager that allows you to install software and manage dependencies in isolated environments. 
 
-Follow our guide to setting up a Conda environment here.
+Follow our guide to setting up a Conda environment here:
+https://drp-hcb-bioinformatics.github.io/DRP-HCB-Bioinformatics/software.html#managing-your-own-software-tools-and-packages-with-conda
 
 ## Project management
 
-It is good practice to keep your work organised in a project folder. This will make it easier to revisit your work in the future. Best practice is to create a new project for each course and keep all your work in that project folder.
+It is good practice to keep your work organised in a project folder. This will make it easier to revisit your work in the future. Best practice is to create a new project for each course and keep all of your work in that project folder.
 
-
-
-
-
-
-
-
-
-`Linux_command_line_course_Sep26`
-
-Create subfolders for each lesson and keep all your work in the relevant lesson folder. For example, for the Linux command line course, you could create a folder structure like this:
-
-
-::: key-points
-<h2><i class="fas fa-thumbtack"></i> How to follow each course</h2>
-
--   Create a new project in RStudio
--   Install the required libraries\
--   Open a new R script
--   It will be best to work with the tutorial and RStudio open together so you can easily switch between the two. Working on a wide split-screen or multiple desktops is the best setup.
--   I recommend typing out most of the commands rather than copy-and-pasting if you want to learn. Remember you can use the <kbd>Tab</kbd> key to save yourself from endless typing!
-:::
+If you are using Conda to install software, it is also good practice to create a new Conda environment for each project. This will help avoid conflicts between software versions and dependencies.
