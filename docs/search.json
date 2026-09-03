@@ -1,10 +1,38 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Analysing Sequencing Data",
+    "objectID": "start.html",
+    "href": "start.html",
+    "title": "Getting Started",
     "section": "",
-    "text": "This is the homepage for Analysing Sequencing Data hosted by the DRP-HCB Bioinformatics Core at the University of Edinburgh.\nThese courses are run annually by the Bioinformatics Core but are also available upon request."
+    "text": "In these workshops, we will use the Bioinformatics Core training server. This server provides access to a Linux environment, course data and pre-installed bioinformatics tools. Contact Shaun Webb for an account.\nIf you are using the Bioinformatics Core servers, please abide by our user policy and best practices: https://drp-hcb-bioinformatics.github.io/DRP-HCB-Bioinformatics/user_policy.html\nIf you would like to use your own Linux environment, a list of software versions will be provided at the start of each course. See below for installing software with Conda."
+  },
+  {
+    "objectID": "start.html#terminal-applications",
+    "href": "start.html#terminal-applications",
+    "title": "Getting Started",
+    "section": "Terminal applications",
+    "text": "Terminal applications\nTo access the server, you will need to use the Terminal application on your local machine. Windows, Mac and Linux computers all have a built in Terminal application. There are also many third party Terminal applications if you desire a more stylish or interactive setup."
+  },
+  {
+    "objectID": "start.html#accessing-the-server",
+    "href": "start.html#accessing-the-server",
+    "title": "Getting Started",
+    "section": "Accessing the server",
+    "text": "Accessing the server\nThe ssh command is used to connect to a remote server and stands for “secure shell”.\nssh -Y username@bifx-core1.bio.ed.ac.uk\nThe -Y option allows you to run graphical applications on the server and have them displayed on your local machine. Replace username with your university UUN (universal user name)."
+  },
+  {
+    "objectID": "start.html#installing-software",
+    "href": "start.html#installing-software",
+    "title": "Getting Started",
+    "section": "Installing software",
+    "text": "Installing software\nWe recommend Conda for installing software on your own Linux environment. Conda is a package manager that allows you to install software and manage dependencies in isolated environments.\nFollow our guide to setting up a Conda environment here: https://drp-hcb-bioinformatics.github.io/DRP-HCB-Bioinformatics/software.html#managing-your-own-software-tools-and-packages-with-conda"
+  },
+  {
+    "objectID": "start.html#project-management",
+    "href": "start.html#project-management",
+    "title": "Getting Started",
+    "section": "Project management",
+    "text": "Project management\nIt is good practice to keep your work organised in a project folder. This will make it easier to revisit your work in the future. Best practice is to create a new project for each course and keep all of your work in that project folder.\nIf you are using Conda to install software, it is also good practice to create a new Conda environment for each project. This will help avoid conflicts between software versions and dependencies."
   },
   {
     "objectID": "about.html",
@@ -14,11 +42,11 @@
     "text": "About this site\n\n1 + 1\n\n[1] 2"
   },
   {
-    "objectID": "index.html#workshops",
-    "href": "index.html#workshops",
+    "objectID": "index.html",
+    "href": "index.html",
     "title": "Analysing Sequencing Data",
-    "section": "Workshops",
-    "text": "Workshops\n\nLesson 1: Bioinformatics on the Linux command line\nLesson 2: High throughput sequencing data\nLesson 3: Analysing HTS data (ChIP-seq example)\nLesson 4: Long read transcriptomics\nLesson 5: Building bioinformatics pipelines (bash scripts and Snakemake)\n\n\nFor more information contact Shaun Webb."
+    "section": "",
+    "text": "This is the homepage for Analysing Sequencing Data hosted by the DRP-HCB Bioinformatics Core at the University of Edinburgh.\nThese courses are run annually by the Bioinformatics Core but are also available upon request."
   },
   {
     "objectID": "index.html#course-content",

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>About – Analysing Sequencing Data</title>
+<title>Getting Started – Analysing Sequencing Data</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -22,41 +22,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -136,7 +101,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./start.html"> 
+    <a class="nav-link active" href="./start.html" aria-current="page"> 
 <span class="menu-text">Getting Started</span></a>
   </li>  
 </ul>
@@ -156,7 +121,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">About</h1>
+<h1 class="title">Getting Started</h1>
 </div>
 
 
@@ -173,15 +138,35 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<p>About this site</p>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="sc">+</span> <span class="dv">1</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 2</code></pre>
-</div>
-</div>
+
+<script src="https://kit.fontawesome.com/ece750edd7.js" crossorigin="anonymous"></script>
+
+<hr>
+<p>In these workshops, we will use the Bioinformatics Core training server. This server provides access to a Linux environment, course data and pre-installed bioinformatics tools. Contact <a href="mailto:shaun.webb@ed.ac.uk">Shaun Webb</a> for an account.</p>
+<p>If you are using the Bioinformatics Core servers, please abide by our user policy and best practices: https://drp-hcb-bioinformatics.github.io/DRP-HCB-Bioinformatics/user_policy.html</p>
+<p>If you would like to use your own Linux environment, a list of software versions will be provided at the start of each course. See below for installing software with Conda.</p>
+<section id="terminal-applications" class="level2">
+<h2 class="anchored" data-anchor-id="terminal-applications">Terminal applications</h2>
+<p>To access the server, you will need to use the Terminal application on your local machine. Windows, Mac and Linux computers all have a built in Terminal application. There are also many <a href="https://github.com/cdleon/awesome-terminals">third party Terminal applications</a> if you desire a more stylish or interactive setup.</p>
+</section>
+<section id="accessing-the-server" class="level2">
+<h2 class="anchored" data-anchor-id="accessing-the-server">Accessing the server</h2>
+<p>The <code>ssh</code> command is used to connect to a remote server and stands for “secure shell”.</p>
+<p><code>ssh -Y username@bifx-core1.bio.ed.ac.uk</code></p>
+<p>The <code>-Y</code> option allows you to run graphical applications on the server and have them displayed on your local machine. Replace <code>username</code> with your university UUN (universal user name).</p>
+</section>
+<section id="installing-software" class="level2">
+<h2 class="anchored" data-anchor-id="installing-software">Installing software</h2>
+<p>We recommend <a href="https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html">Conda</a> for installing software on your own Linux environment. Conda is a package manager that allows you to install software and manage dependencies in isolated environments.</p>
+<p>Follow our guide to setting up a Conda environment here: https://drp-hcb-bioinformatics.github.io/DRP-HCB-Bioinformatics/software.html#managing-your-own-software-tools-and-packages-with-conda</p>
+</section>
+<section id="project-management" class="level2">
+<h2 class="anchored" data-anchor-id="project-management">Project management</h2>
+<p>It is good practice to keep your work organised in a project folder. This will make it easier to revisit your work in the future. Best practice is to create a new project for each course and keep all of your work in that project folder.</p>
+<p>If you are using Conda to install software, it is also good practice to create a new Conda environment for each project. This will help avoid conflicts between software versions and dependencies.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
