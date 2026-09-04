@@ -14,7 +14,7 @@ These courses are run annually by the Bioinformatics Core but are also available
 
 ## Course content
 
-- Lesson 1: Bioinformatics on the Linux command line
+- [Lesson 1: Bioinformatics on the Linux command line](https://drp-hcb-bioinformatics.github.io/Bioinformatics_on_the_Linux_command_line/)
 - Lesson 2: High throughput sequencing data
 - Lesson 3: Analysing HTS data (ChIP-seq example)
 - Lesson 4: Long read transcriptomics
