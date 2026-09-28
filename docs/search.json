@@ -25,7 +25,7 @@
     "href": "start.html#installing-software",
     "title": "Getting Started",
     "section": "Installing software",
-    "text": "Installing software\nWe recommend Conda for installing software on your own Linux environment. Conda is a package manager that allows you to install software and manage dependencies in isolated environments.\nFollow our guide to setting up a Conda environment here: https://drp-hcb-bioinformatics.github.io/DRP-HCB-Bioinformatics/software.html#managing-your-own-software-tools-and-packages-with-conda"
+    "text": "Installing software\nNot required if using the Bioinformatics Core servers.\nWe recommend Conda for installing software on your own Linux environment. Conda is a package manager that allows you to install software and manage dependencies in isolated environments.\nFollow our guide to setting up a Conda environment here: https://drp-hcb-bioinformatics.github.io/DRP-HCB-Bioinformatics/software.html#managing-your-own-software-tools-and-packages-with-conda"
   },
   {
     "objectID": "start.html#project-management",
