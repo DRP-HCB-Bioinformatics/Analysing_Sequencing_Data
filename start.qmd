@@ -37,6 +37,8 @@ The `-Y` option allows you to run graphical applications on the server and have 
 
 ## Installing software
 
+***Not required if using the Bioinformatics Core servers.***
+
 We recommend [Conda](https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html) for installing software on your own Linux environment. Conda is a package manager that allows you to install software and manage dependencies in isolated environments. 
 
 Follow our guide to setting up a Conda environment here:
