@@ -16,11 +16,11 @@ knitr::opts_chunk$set(warning=FALSE, message=FALSE)
 
 ------------------------------------------------------------------------
 
-In these workshops, we will use the Bioinformatics Core training server. This server provides access to a Linux environment, course data and pre-installed bioinformatics tools. Contact [Shaun Webb](mailto:shaun.webb@ed.ac.uk) for an account.
+These workshops use the Bioinformatics Core training server. This server provides access to a Linux environment, course data and pre-installed bioinformatics tools. Contact [Shaun Webb](mailto:shaun.webb@ed.ac.uk) for an account.
 
-If you are using the Bioinformatics Core servers, please abide by our user policy and best practices: https://drp-hcb-bioinformatics.github.io/DRP-HCB-Bioinformatics/user_policy.html
+If you are using the Bioinformatics Core servers, please abide by our [user policy and best practices](https://drp-hcb-bioinformatics.github.io/DRP-HCB-Bioinformatics/user_policy.html).
 
-If you would like to use your own Linux environment, a list of software versions will be provided at the start of each course. See below for installing software with Conda.
+If you would like to use your own Linux environment, a list of required software is provided at the start of each course. See below for installing software with Conda.
 
 ## Terminal applications
 
